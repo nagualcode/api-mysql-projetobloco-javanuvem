@@ -56,7 +56,7 @@ public class ClienteController {
 	}
 	
 	@ApiOperation(value = "Excluir um cliente")
-	@DeleteMapping(value = "/{id}")
+	@DeleteMapping(value = "/del/{id}")
 	public void excluir(
 				@PathVariable Integer id
 			) {
